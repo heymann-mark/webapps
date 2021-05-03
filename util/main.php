@@ -49,7 +49,7 @@ $app_path = substr($project_root, strlen($doc_root));
 //E_STRICT: Enable to have PHP suggest changes to your code which will ensure the best interoperability and forward compatibility of your code.
 //The pipe means remove this next thing, so all but the strictly defined
 //so basically error reporting determines which errors to report,
-//ini_set syays to display them, thats' the 1, it's like "on"
+//ini_set says to display them, thats' the 1, it's like "on"
 error_reporting(E_ALL | E_STRICT);
 //ini_set updates the configuration of the php.ini file
 ini_set('display_errors', '1');
@@ -63,7 +63,7 @@ ini_set('error_log', $project_root . 'php-errors.log');
 //this is the error message that will be logged automatically at the start of each program
 error_log('=====Starting request: ' . $_SERVER['REQUEST_URI']);
 // Start session
-//rn this method doesnt' do much becuase we don't go on to set any session variables
+//rn this method doesn't do much becuase we don't go on to set any session variables
 if(!isset($_SESSION))
     {
         session_start();

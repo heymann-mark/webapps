@@ -9,7 +9,7 @@
     //error is "thrown" with $dbh =
     //but if dbh = had called another function, which called another function, which...
     //then the error would have bubbled up the call stack until we find
-    //the catch clause which catshces the PDOexception and names it $e
+    //the catch clause which catches the PDOexception and names it $e
     //then we have some instructions on what to do with it
     //ATTR_ERRMODE: error reporting
     //setAttribute(ATTRIBUTE, OPTION);
