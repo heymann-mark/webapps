@@ -1,0 +1,163 @@
+[03-May-2021 17:17:24 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 17:17:24 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 17:17:27 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?action=order_sandwich&customer=1
+[03-May-2021 17:17:27 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?action=order_sandwich&customer=1
+[03-May-2021 17:17:38 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/index.php?action=add_order&sandwich_size=2&bread_type=2&sandwich_topping%5B%5D=1&meat_type%5B%5D=1&sauce_type%5B%5D=1&customer=1&n=2
+[03-May-2021 17:17:38 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?customer=1
+[03-May-2021 17:17:38 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?customer=1
+[03-May-2021 18:05:30 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:05:30 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:05:31 Europe/Berlin] =====Starting request: /sandwichShop/admin/topping/
+[03-May-2021 18:05:31 Europe/Berlin] =====Starting request: /sandwichShop/admin/topping/
+[03-May-2021 18:05:34 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:05:34 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:05:35 Europe/Berlin] =====Starting request: /sandwichShop/admin/size/
+[03-May-2021 18:05:35 Europe/Berlin] =====Starting request: /sandwichShop/admin/size/
+[03-May-2021 18:09:02 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:09:02 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:10:03 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:10:03 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:10:04 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:10:04 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:10:08 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:10:08 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:10:15 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:10:15 Europe/Berlin] PHP Warning:  include(topping_list.php): failed to open stream: No such file or directory in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 16
+[03-May-2021 18:10:15 Europe/Berlin] PHP Warning:  include(): Failed opening 'topping_list.php' for inclusion (include_path='C:/xampp/htdocs/sandwichShop/') in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 16
+[03-May-2021 18:12:59 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:12:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function get_available_bread() in C:\xampp\htdocs\sandwichShop\admin\bread\index.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 15
+[03-May-2021 18:13:19 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:13:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function get_available_bread() in C:\xampp\htdocs\sandwichShop\admin\bread\index.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 15
+[03-May-2021 18:13:54 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:13:54 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:13:54 Europe/Berlin] PHP Notice:  Undefined variable: breads in C:\xampp\htdocs\sandwichShop\admin\bread\bread_list.php on line 7
+[03-May-2021 18:13:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\sandwichShop\admin\bread\bread_list.php on line 7
+[03-May-2021 18:14:52 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:14:52 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:14:54 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/?action=show_add_form
+[03-May-2021 18:14:54 Europe/Berlin] PHP Warning:  include(topping_add.php): failed to open stream: No such file or directory in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 24
+[03-May-2021 18:14:54 Europe/Berlin] PHP Warning:  include(): Failed opening 'topping_add.php' for inclusion (include_path='C:/xampp/htdocs/sandwichShop/') in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 24
+[03-May-2021 18:15:33 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/?action=show_add_form
+[03-May-2021 18:15:33 Europe/Berlin] PHP Warning:  include(topping_add.php): failed to open stream: No such file or directory in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 24
+[03-May-2021 18:15:33 Europe/Berlin] PHP Warning:  include(): Failed opening 'topping_add.php' for inclusion (include_path='C:/xampp/htdocs/sandwichShop/') in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 24
+[03-May-2021 18:16:03 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/?action=show_add_form
+[03-May-2021 18:16:03 Europe/Berlin] PHP Warning:  include(breads_add.php): failed to open stream: No such file or directory in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 24
+[03-May-2021 18:16:03 Europe/Berlin] PHP Warning:  include(): Failed opening 'breads_add.php' for inclusion (include_path='C:/xampp/htdocs/sandwichShop/') in C:\xampp\htdocs\sandwichShop\admin\bread\index.php on line 24
+[03-May-2021 18:16:16 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/?action=show_add_form
+[03-May-2021 18:16:16 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/?action=show_add_form
+[03-May-2021 18:16:42 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/?action=show_add_form
+[03-May-2021 18:16:42 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/?action=show_add_form
+[03-May-2021 18:16:50 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/index.php
+[03-May-2021 18:16:50 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:16:50 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:17:02 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:17:02 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:17:03 Europe/Berlin] =====Starting request: /sandwichShop/admin/topping/
+[03-May-2021 18:17:03 Europe/Berlin] =====Starting request: /sandwichShop/admin/topping/
+[03-May-2021 18:17:04 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:17:04 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:17:05 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:17:05 Europe/Berlin] PHP Warning:  include(topping_list.php): failed to open stream: No such file or directory in C:\xampp\htdocs\sandwichShop\admin\meat\index.php on line 16
+[03-May-2021 18:17:05 Europe/Berlin] PHP Warning:  include(): Failed opening 'topping_list.php' for inclusion (include_path='C:/xampp/htdocs/sandwichShop/') in C:\xampp\htdocs\sandwichShop\admin\meat\index.php on line 16
+[03-May-2021 18:17:07 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:17:07 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:19:20 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:19:20 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:19:21 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/?action=show_add_form
+[03-May-2021 18:19:21 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/?action=show_add_form
+[03-May-2021 18:19:25 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/index.php
+[03-May-2021 18:19:25 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:19:25 Europe/Berlin] =====Starting request: /sandwichShop/admin/bread/
+[03-May-2021 18:19:29 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:19:29 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:19:31 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:19:31 Europe/Berlin] PHP Warning:  include(topping_list.php): failed to open stream: No such file or directory in C:\xampp\htdocs\sandwichShop\admin\meat\index.php on line 16
+[03-May-2021 18:19:31 Europe/Berlin] PHP Warning:  include(): Failed opening 'topping_list.php' for inclusion (include_path='C:/xampp/htdocs/sandwichShop/') in C:\xampp\htdocs\sandwichShop\admin\meat\index.php on line 16
+[03-May-2021 18:24:20 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:24:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function get_available_toppings() in C:\xampp\htdocs\sandwichShop\admin\meat\index.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\sandwichShop\admin\meat\index.php on line 15
+[03-May-2021 18:24:41 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:24:41 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:24:41 Europe/Berlin] PHP Notice:  Undefined index: topping_name in C:\xampp\htdocs\sandwichShop\admin\meat\meat_list.php on line 12
+[03-May-2021 18:24:41 Europe/Berlin] PHP Notice:  Undefined index: topping_name in C:\xampp\htdocs\sandwichShop\admin\meat\meat_list.php on line 12
+[03-May-2021 18:24:41 Europe/Berlin] PHP Notice:  Undefined index: topping_name in C:\xampp\htdocs\sandwichShop\admin\meat\meat_list.php on line 12
+[03-May-2021 18:24:41 Europe/Berlin] PHP Notice:  Undefined index: topping_name in C:\xampp\htdocs\sandwichShop\admin\meat\meat_list.php on line 12
+[03-May-2021 18:25:13 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:25:13 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:25:28 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:25:28 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:25:30 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:25:30 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:26:23 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:26:23 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:26:29 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:26:29 Europe/Berlin] PHP Notice:  Undefined variable: meat_name in C:\xampp\htdocs\sandwichShop\admin\meat\index.php on line 36
+[03-May-2021 18:27:08 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:27:12 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:27:12 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:27:17 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:27:54 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:27:56 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:27:56 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:28:00 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:28:02 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:28:02 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:28:43 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:30:23 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:30:51 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:32:05 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:32:05 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:32:05 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:32:05 Europe/Berlin] PHP Notice:  Undefined variable: meats in C:\xampp\htdocs\sandwichShop\admin\meat\meat_list.php on line 9
+[03-May-2021 18:32:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\sandwichShop\admin\meat\meat_list.php on line 9
+[03-May-2021 18:43:27 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:43:27 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:43:27 Europe/Berlin] PHP Notice:  Undefined variable: meats in C:\xampp\htdocs\sandwichShop\admin\meat\meat_list.php on line 9
+[03-May-2021 18:43:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\sandwichShop\admin\meat\meat_list.php on line 9
+[03-May-2021 18:44:25 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:44:25 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:44:28 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:44:28 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/?action=show_add_form
+[03-May-2021 18:44:36 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/index.php
+[03-May-2021 18:44:36 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:44:36 Europe/Berlin] =====Starting request: /sandwichShop/admin/meat/
+[03-May-2021 18:44:39 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:44:39 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:44:42 Europe/Berlin] =====Starting request: /sandwichShop/admin/size/
+[03-May-2021 18:44:42 Europe/Berlin] =====Starting request: /sandwichShop/admin/size/
+[03-May-2021 18:44:44 Europe/Berlin] =====Starting request: /sandwichShop/admin/size/?action=show_add_form
+[03-May-2021 18:44:44 Europe/Berlin] =====Starting request: /sandwichShop/admin/size/?action=show_add_form
+[03-May-2021 18:44:47 Europe/Berlin] =====Starting request: /sandwichShop/admin/size/index.php
+[03-May-2021 18:44:47 Europe/Berlin] =====Starting request: /sandwichShop/admin/size/
+[03-May-2021 18:44:47 Europe/Berlin] =====Starting request: /sandwichShop/admin/size/
+[03-May-2021 18:44:49 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:44:49 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 18:44:51 Europe/Berlin] =====Starting request: /sandwichShop/admin/topping/
+[03-May-2021 18:44:51 Europe/Berlin] =====Starting request: /sandwichShop/admin/topping/
+[03-May-2021 18:44:54 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 18:44:54 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 18:45:17 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 18:45:17 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 19:34:12 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 19:34:12 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 19:34:14 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 19:34:14 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/
+[03-May-2021 19:34:18 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?action=order_sandwich&customer=1
+[03-May-2021 19:34:18 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?action=order_sandwich&customer=1
+[03-May-2021 19:34:30 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/index.php?action=add_order&sandwich_size=1&bread_type=1&sandwich_topping%5B%5D=1&sandwich_topping%5B%5D=2&sandwich_topping%5B%5D=3&meat_type%5B%5D=3&sauce_type%5B%5D=1&sauce_type%5B%5D=2&customer=1&n=12
+[03-May-2021 19:34:31 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?customer=1
+[03-May-2021 19:34:31 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?customer=1
+[03-May-2021 19:34:37 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?action=order_sandwich&customer=1
+[03-May-2021 19:34:37 Europe/Berlin] =====Starting request: /sandwichShop/sandwich/?action=order_sandwich&customer=1
+[03-May-2021 19:34:39 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 19:34:39 Europe/Berlin] =====Starting request: /sandwichShop/admin/
+[03-May-2021 19:34:40 Europe/Berlin] =====Starting request: /sandwichShop/admin/topping/
+[03-May-2021 19:34:40 Europe/Berlin] =====Starting request: /sandwichShop/admin/topping/
